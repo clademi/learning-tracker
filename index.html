@@ -881,7 +881,7 @@ let currentTags = [];
 let timerInterval = null, startTime = null, isRunning = false;
 let currentFilter = 'week', currentBsView = 'pending';
 
-const useLocal = !SCRIPT_URL || SCRIPT_URL === 'YOUR_SCRIPT_URL_HERE';
+const useLocal = !SCRIPT_URL || SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwEZDeJryKxifvWmyg4SsiHz6L0wcOv2rMrAQfobGPSy7ABuqCX0t0wGkChbvDWGKOCMg/exec';
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('record-date').value = new Date().toISOString().split('T')[0];
